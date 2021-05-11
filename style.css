@@ -433,7 +433,8 @@ body {
 }
 
 .swiper-slide-img {
-  min-width: 322px;
+/*   min-width: 322px; */
+  width: 100%;
 }
 /* スライダー */
 
