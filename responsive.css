@@ -1,0 +1,153 @@
+@media (max-width:1250px) {
+  .pc__menu__list3 {
+    margin-left: 46px;
+  }
+
+  .concept {
+    padding: 80px 0 0 0;
+  }
+}
+
+@media (max-width: 1150px) {
+  .mainvisual__container2 {
+    width: 550px;
+  }
+
+  .mainvisual__img2 {
+    padding: 190px 120px 113px 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .price__menu {
+    width: 500px;
+  }
+  .price__menu__list__2 {
+    width: 200px;
+    padding: 0 0 0 31px;
+  }
+}
+
+
+
+@media (max-width:1000px) {
+  .pc__menu {
+    display: none;
+  }
+
+  .sp-menu {
+    display: block;
+  }
+
+  .mainvisual__container2 {
+    width: 500px;
+  }
+
+  .mainvisual__img2 {
+    padding: 190px 90px 113px 0;
+  }
+
+  .concept__about__wrapper {
+    display: block;
+  }
+
+  .concept__about__left {
+    text-align: center;
+  }
+
+  .concept__about__right {
+    max-width: 510px;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+
+  .concept__about__wrapper2 {
+    display: block;
+  }
+
+  .concept__about__right2 {
+    max-width: 510px;
+    margin: 0 auto;
+    padding: 50px 0 0 0;
+  }
+
+  .concept__about__title__2,
+  .concept__about__title__3,
+  .concept__about__text__2,
+  .concept__about__text__3 {
+    max-width: 510px;
+  }
+
+}
+
+@media (max-width: 950px) {
+  .mainvisual__container2 {
+    width: 450px;
+  }
+
+  .mainvisual__img2 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .mainvisual {
+    width: 900px;
+  }
+
+  .mainvisual__title {
+    font-size: 28px;
+    line-height: 1.7;
+    padding-bottom: 27px;
+  }
+
+  .mainvisual__img2 {
+    padding: 190px 70px 113px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .mainvisual__container {
+    margin: 0 auto;
+    /* 左右中央 */
+    max-width: 360px;
+    /* 左右中央 */
+    padding-top: 94px;
+  }
+
+  .concept {
+    margin: 0 15px;
+  }
+
+  .concept__about__img {
+    text-align: center;
+  }
+
+  .contents {
+    padding: 64px 10px;
+}
+
+  .price__menu {
+    min-width: 370px;
+  }
+
+  .price__menu__list__1 {
+    padding: 40px 10px 37px 10px;
+  }
+
+  .price__menu__list__2 {
+    padding: 0 10px 0 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header__container {
+    width: 100%;
+  }
+
+  .mainvisual__container {
+    min-width: 360px;
+    margin: 0 auto;
+  }
+}
