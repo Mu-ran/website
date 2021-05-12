@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,7 +19,7 @@
     <header>
       <div class="header__container">
         <div class="header__logo">
-          <img class="header__logo__img" src="https://mu-ran.github.io/website/header.png" alt="">
+          <img class="header__logo__img" src="img/header.png" alt="">
           <p class="header__logo__title">ユアコーディング</p>
         </div>
         <nav>
@@ -49,16 +50,15 @@
     </div>
 
     <section class="mainvisual">
-
       <div class="mainvisual__container">
-        <h1 class="mainvisual__title">コーディングの手間を<br>最小に、デザインに注力<br>する助けに</h1>
-        <p class="mainvisual__title__inner">ユアコーディングはコーディングに<br>特化したフリーランス<br>デザインに注力されたい方の<br> 助けになります</p>
-        <p class="mainvisual__title__info">お問い合わせ</p>
-      </div>
+          <h1 class="mainvisual__title">コーディングの手間を<br>最小に、デザインに注力<br>する助けに</h1>
+          <p class="mainvisual__title__inner">ユアコーディングはコーディングに<br>特化したフリーランス<br>デザインに注力されたい方の<br> 助けになります</p>
+          <p class="mainvisual__title__info">お問い合わせ</p>
+        </div>
 
       <div class="mainvisual__container2">
-        <img class="mainvisual__img1" src="https://mu-ran.github.io/website//楕円形 1.png" alt="">
-        <img class="mainvisual__img2" src="https://mu-ran.github.io/website//manager.png" alt="">
+        <img class="mainvisual__img1" src="img/楕円形 1.png" alt="">
+        <img class="mainvisual__img2" src="img/manager.png" alt="">
       </div>
     </section>
 
@@ -68,19 +68,22 @@
 
       <h3 class="concept__about">高速コーディング</h3>
       <div class="concept__about__wrapper">
-        <img class="concept__about__img" src="https://mu-ran.github.io/website//cto.png" alt="">
-        <div class="concept__about__contents">
+        <div class="concept__about__left">
+          <img class="concept__about__img" src="img/cto.png" alt="">
+        </div>
+        <div class="concept__about__right">
           <h4 class="concept__about__title__1">コーディングに特化したフリーランスのため、 スピード感を持った開発が可能。</h4>
-          <p class="concept__about__text__1">開発は常にスピードとの勝負です。 ユアコーディングはコーディングに特化しているため、 素早く納品することで、クライアントがデザインに注力
-            する助けとなります。
+          <p class="concept__about__text__1">開発は常にスピードとの勝負です。<br>ユアコーディングはコーディングに特化しているため、<br>素早く納品することで、クライアントがデザインに注力<br>する助けとなります。
           </p>
         </div>
       </div>
 
       <h3 class="concept__about2">高品質</h3>
       <div class="concept__about__wrapper2">
-        <img src="img/building_website.png" alt="">
-        <div class="concept__about__contents">
+        <div class="concept__about__left">
+          <img src="img/building_website.png" alt="">
+        </div>
+        <div class="concept__about__right2">
           <h4 class="concept__about__title__2">正しいマークアップで、 内部SEOに強いコーディングを デフォルトで行います。</h4>
           <p class="concept__about__text__2">ユアコーディングでは、「予測しやすい」「再利用しやすい」 「保守しやすい」「拡張しやすい」と言った設計をもとに
             きちんとコーディングを行うため、納品後も安心です。
@@ -91,8 +94,10 @@
 
       <h3 class="concept__about3">迅速なレスポンス</h3>
       <div class="concept__about__wrapper">
-        <img class="concept__about__img" src="https://mu-ran.github.io/website//new_message.png" alt="">
-        <div class="concept__about__contents">
+        <div class="concept__about__left">
+          <img class="concept__about__img" src="img/new_message.png" alt="">
+        </div>
+        <div class="concept__about__right">
           <h4 class="concept__about__title__3">原則いただいたメッセージは、 業務時間内であれば6時間以内に お返しいたします。</h4>
           <p class="concept__about__text__3">連絡を返さないフリーランスが多い中、 ユアコーディングでは定期的な進捗報告など、 社会人としての基本を踏まえて仕事を行なって おります。</p>
         </div>
@@ -102,25 +107,27 @@
     <section class="contents">
       <h2 class="contents__title">価格</h2>
       <p class="price">PRICE</p>
-      <div class="price__menu">
-        <dl class="price__menu__list">
-          <dt class="price__menu__list__1">HTMLコーディングトップページ</dt>
-          <dd class="price__menu__list__2">10.000円〜</dd>
-        </dl>
-        <dl class="price__menu__list">
-          <dt class="price__menu__list__1">HTMLコーディング下層1ページ</dt>
-          <dd class="price__menu__list__2">55.000円〜</dd>
-        </dl>
-        <dl class="price__menu__list">
-          <dt class="price__menu__list__1">HTML+WordPressトップページ</dt>
-          <dd class="price__menu__list__2">30.000円〜</dd>
-        </dl>
-        <dl class="price__menu__list">
-          <dt class="price__menu__list__1">HTML+WordPress下層1ページ</dt>
-          <dd class="price__menu__list__2">15.000円〜</dd>
-        </dl>
-      </div>
+
+      <table class="price__menu">
+        <tr>
+          <th class="price__menu__list__1">HTMLコーディングトップページ</th>
+          <td class="price__menu__list__2">10.000円〜</td>
+        </tr>
+        <tr>
+          <th class="price__menu__list__1">HTMLコーディング下層1ページ</th>
+          <td class="price__menu__list__2">55.000円〜</td>
+        </tr>
+        <tr>
+          <th class="price__menu__list__1">HTML+WordPressトップページ</th>
+          <td class="price__menu__list__2">30.000円〜</td>
+        </tr>
+        <tr>
+          <th class="price__menu__list__1">HTML+WordPress下層1ページ</th>
+          <td class="price__menu__list__2">15.000円〜</td>
+        </tr>   
+      </table>
       <p class="price__text">＊詳細な価格はページや仕様によって異なります</p>
+
     </section>
 
 
@@ -158,13 +165,12 @@
       <h2 class="contents__title">ブログ</h2>
       <p class="contents__blog">BLOG</p>
       <div class="contents__blog__wrapper">
-        <img class="contents__blog__img" src="https://mu-ran.github.io/website//グループ 6.jpg" alt="">
-        <img class="contents__blog__img" src="https://mu-ran.github.io/website//グループ 7.jpg" alt="">
-        <img class="contents__blog__img" src="https://mu-ran.github.io/website//グループ 8.jpg" alt="">
+        <img class="contents__blog__img" src="img/グループ 6.jpg" alt="">
+        <img class="contents__blog__img" src="img/グループ 7.jpg" alt="">
+        <img class="contents__blog__img" src="img/グループ 8.jpg" alt="">
       </div>
 
     </section>
-
 
 
 
@@ -177,27 +183,27 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="swiper-slide-container">
-              <img class="swiper-slide-img" src="https://mu-ran.github.io/website//グループ 9.jpg" alt="">
+              <img class="swiper-slide-img" src="img/グループ 9.jpg" alt="">
             </div>
           </div>
           <div class="swiper-slide">
             <div class="swiper-slide-container">
-              <img class="swiper-slide-img" src="https://mu-ran.github.io/website//グループ 10.jpg" alt="">
+              <img class="swiper-slide-img" src="img/グループ 10.jpg" alt="">
             </div>
           </div>
           <div class="swiper-slide">
             <div class="swiper-slide-container">
-              <img class="swiper-slide-img" src="https://mu-ran.github.io/website//グループ 11.jpg" alt="">
+              <img class="swiper-slide-img" src="img/グループ 11.jpg" alt="">
             </div>
           </div>
           <div class="swiper-slide">
             <div class="swiper-slide-container">
-              <img class="swiper-slide-img" src="https://mu-ran.github.io/website//グループ 12.jpg" alt="">
+              <img class="swiper-slide-img" src="img/グループ 12.jpg" alt="">
             </div>
           </div>
           <div class="swiper-slide">
             <div class="swiper-slide-container">
-              <img class="swiper-slide-img" src="https://mu-ran.github.io/website//グループ 13.jpg" alt="">
+              <img class="swiper-slide-img" src="img/グループ 13.jpg" alt="">
             </div>
           </div>
         </div>
