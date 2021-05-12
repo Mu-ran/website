@@ -68,7 +68,7 @@ header {
   background: linear-gradient(90deg, #F540CB, #F540CB 30%, #6822B2);
 }
 
-.sp-menu #open.hide {
+.sp-menu {
   display: none;
 }
 
@@ -115,27 +115,36 @@ header {
 
 .mainvisual {
   display: flex;
-  background-color: plum;
   justify-content: center;
+  align-items: center;
+  height: 768px;
+  max-width: 1366px;
+  margin: 0 auto;
+  background-color: plum;
 }
 
+/* メインタイトルのコンテナ */
 .mainvisual__container {
-  padding: 262px 133px 0 0;
-  min-width: 360px;
+  max-width: 360px; /* 左右中央 */
+  margin: 0 auto; /* 左右中央 */
+  padding-top: 94px;
+  margin: 0 50px;
 }
 
+/* h1 */
 .mainvisual__title {
   font-size: 32px;
   line-height: 1.7;
   padding-bottom: 27px;
 }
-
+/* text */
 .mainvisual__title__inner {
   font-size: 16px;
   line-height: 1.7;
   padding-bottom: 39px;
 }
 
+/* info__btn */
 .mainvisual__title__info {
   display: inline;
   padding: 12px 36px;
@@ -144,6 +153,7 @@ header {
   background: linear-gradient(90deg, #F540CB, #F540CB 30%, #6822B2);
 }
 
+/* メイン画像のコンテナ */
 .mainvisual__container2 {
   position: relative;
   display: flex;
@@ -151,10 +161,10 @@ header {
 
 .mainvisual__img1 {
   position: absolute;
-  /* top: -30px;
-  right: -85px; */
-  top: -3.9px;
-  right: -8.5px;
+  width: 100%;
+  top: -30px;
+  right: -85px;
+  height: auto;
 }
 
 .mainvisual__img2 {
@@ -163,7 +173,6 @@ header {
 }
 
 /* concept */
-
 .concept {
   padding: 80px 135px 157px 192px
 }
@@ -194,7 +203,7 @@ header {
   max-width: 1100px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -222,42 +231,51 @@ header {
   padding-top: 143px;
   padding-bottom: 67px;
 }
+.concept__about__right {
+  max-width: 510px;
+  margin: 0 auto;
+  margin: 50px;
+}
+
+.concept__about__right2 {
+  padding-left: 30px;
+}
 
 .concept__about__title__1 {
-  width: 510px;
+  max-width: 510px;
   font-size: 24px;
   line-height: 2;
   padding-bottom: 37px;
 }
 
 .concept__about__title__2 {
-  width: 338px;
+  max-width: 338px;
   font-size: 24px;
   line-height: 2;
   padding-bottom: 37px;
 }
 
 .concept__about__title__3 {
-  width: 349px;
+  max-width: 349px;
   font-size: 24px;
   line-height: 2;
   padding-bottom: 37px;
 }
 
 .concept__about__text__1 {
-  width: 399px;
+  max-width: 399px;
   font-size: 16px;
   line-height: 1.6;
 }
 
 .concept__about__text__2 {
-  width: 447px;
+  max-width: 447px;
   font-size: 16px;
   line-height: 1.6;
 }
 
 .concept__about__text__3 {
-  width: 335px;
+  max-width: 335px;
   font-size: 16px;
   line-height: 1.6;
 }
@@ -274,6 +292,8 @@ header {
   padding-bottom: 23px;
 }
 
+
+
 .price {
   font-size: 16px;
   line-height: 1.2;
@@ -283,25 +303,33 @@ header {
 }
 
 .price__menu {
-  max-width: 950px;
+  width: 930px;
   margin: 0 auto;
-  box-shadow: 0 3px 6px rgb(0 0 0 / 18%);
   background-color: #fff;
 }
 
-.price__menu__list {
-  display: flex;
+th, td {
+  white-space: nowrap;
+  padding: 0;
 }
 
 .price__menu__list__1 {
-  width: 300px;
-  padding: 40px 37px 37px 18px;
+  width: 290px;
+  text-align: left;
+  padding: 40px 37px 37px 19px;
+  border-top: 1px solid #E5E5E5;
   border-bottom: 1px solid #E5E5E5;
+  border-right: 1px solid #E5E5E5;
+  border-left: 1px solid #E5E5E5;
 }
 
 .price__menu__list__2 {
-  padding: 40px 524px 37px 31px;
+  width: 580px;
+  padding: 0 0 0 31px;
+  /* padding: 40px 524px 37px 31px; */
+  border-top: 1px solid #E5E5E5;
   border-bottom: 1px solid #E5E5E5;
+  border-right: 1px solid #E5E5E5;
   border-left: 1px solid #E5E5E5;
 }
 
@@ -311,7 +339,7 @@ header {
 }
 
 .question {
-  padding: 64px 0 86px 0;
+  padding: 64px 10px 86px 10px;
 }
 
 .question__title {
@@ -395,8 +423,7 @@ header {
 
 .contents__blog__img {
   width: 389px;
-  width: 30%;
-  padding: 0 15px 0 15px;
+  padding: 0 15px 30px 15px;
 }
 
 
@@ -408,6 +435,8 @@ body {
 
 .swiper-container {
   width: 100%;
+  /* width: 322px; */
+  /* height: 407px; */
   margin: 20px auto;
 }
 
@@ -415,7 +444,9 @@ body {
   text-align: center;
   font-size: 18px;
   background: #fff;
+  /* height: 407px; */
   max-width: 322px;
+  /* padding: 0 20px; */
   margin: auto;
   /* Center slide text vertically */
   display: -webkit-box;
@@ -433,9 +464,10 @@ body {
 }
 
 .swiper-slide-img {
-/*   min-width: 322px; */
+  /* min-width: 322px; */
   width: 100%;
 }
+
 /* スライダー */
 
 
