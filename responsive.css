@@ -28,6 +28,11 @@
     width: 200px;
     padding: 0 0 0 31px;
   }
+  
+  .concept__about__left {
+    max-width: 380px;
+    margin: 0 auto;
+  }
 
 }
 
