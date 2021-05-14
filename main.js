@@ -26,21 +26,6 @@
 
 
   // スライダー
-  // var swiper = new Swiper('.swiper-container', {
-  //   pagination: '.swiper-pagination',
-  //   slidesPerView: 4,
-  //   centeredSlides: true,//1枚目のスライド中央配置
-  //   paginationClickable: true,
-  //   loop: true,
-  //   spaceBetween: 30,
-  //   slideToClickedSlide: true,
-
-  //   autoplay: {
-  //     delay: 5000,
-  //     disableOnInteraction: true,
-  //   },
-  //   });
-
   const swiper = new Swiper('.swiper-container', {
     autoplay: {
       delay: 5000,
