@@ -241,6 +241,10 @@ a {
   width: 100%;
 }
 
+.concept__about__img1 {
+  padding-right: 107px;
+}
+
 .concept__about2 {
   font-size: 28px;
   line-height: 1.2;
