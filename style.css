@@ -469,8 +469,6 @@ td {
 /* スライダー */
 .swiper-container {
   width: 100%;
-  /* width: 322px; */
-  /* height: 407px; */
   margin: 20px auto;
 }
 
@@ -478,9 +476,7 @@ td {
   text-align: center;
   font-size: 18px;
   background: #fff;
-  /* height: 407px; */
   max-width: 322px;
-  /* padding: 0 20px; */
   margin: auto;
   /* Center slide text vertically */
   display: -webkit-box;
@@ -498,11 +494,10 @@ td {
 }
 
 .swiper-slide-img {
-  /* min-width: 322px; */
   width: 100%;
 }
-
 /* スライダー */
+
 
 .contents3 {
   padding: 64px 0;
