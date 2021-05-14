@@ -133,6 +133,7 @@ a {
 }
 
 .mainvisual {
+  background-color: pink;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -143,12 +144,12 @@ a {
 
 /* メインタイトルのコンテナ */
 .mainvisual__container {
+  width: 50%;
   max-width: 360px;
   /* 左右中央 */
   margin: 0 auto;
   /* 左右中央 */
   padding-top: 94px;
-  margin: 0 50px;
 }
 
 /* h1 */
@@ -176,6 +177,7 @@ a {
 
 /* メイン画像のコンテナ */
 .mainvisual__container2 {
+  width: 50%;
   position: relative;
   display: flex;
 }
@@ -235,10 +237,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.concept__about__img {
-  width: 100%;
 }
 
 .concept__about__img1 {
@@ -315,6 +313,7 @@ a {
   background-color: #EEFBFB;
   padding: 64px 0 61px;
   max-width: 1366px;
+  margin: 0 auto;
 }
 
 .contents__title {
@@ -364,7 +363,6 @@ td {
 .price__menu__list__2 {
   width: 580px;
   padding: 0 0 0 31px;
-  /* padding: 40px 524px 37px 31px; */
   border-top: 1px solid #E5E5E5;
   border-bottom: 1px solid #E5E5E5;
   border-right: 1px solid #E5E5E5;
@@ -469,6 +467,8 @@ td {
 /* スライダー */
 .swiper-container {
   width: 100%;
+  /* width: 322px; */
+  /* height: 407px; */
   margin: 20px auto;
 }
 
@@ -476,7 +476,9 @@ td {
   text-align: center;
   font-size: 18px;
   background: #fff;
+  /* height: 407px; */
   max-width: 322px;
+  /* padding: 0 20px; */
   margin: auto;
   /* Center slide text vertically */
   display: -webkit-box;
@@ -494,10 +496,11 @@ td {
 }
 
 .swiper-slide-img {
+  /* min-width: 322px; */
   width: 100%;
 }
-/* スライダー */
 
+/* スライダー */
 
 .contents3 {
   padding: 64px 0;
@@ -648,6 +651,7 @@ input[type="submit"][disabled] {
 .false-message {
   display: none;
 }
+
 
 
 
