@@ -313,7 +313,7 @@ a {
 
 .contents {
   background-color: #EEFBFB;
-  padding: 64px 0 91px;
+  padding: 64px 0 61px;
   max-width: 1366px;
 }
 
@@ -461,7 +461,7 @@ td {
 
 .contents__blog__img {
   width: 389px;
-  margin: 0 15px;
+  margin: 0 15px 30px 15px;
   box-shadow: 0 3px 6px rgb(0 0 0 / 18%);
 }
 
@@ -648,7 +648,6 @@ input[type="submit"][disabled] {
 .false-message {
   display: none;
 }
-
 
 
 
