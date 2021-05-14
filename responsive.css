@@ -197,4 +197,9 @@
   .contents {
     margin: 0;
   }
+ 
+  .contents__blog__wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
