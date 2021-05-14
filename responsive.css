@@ -202,4 +202,8 @@
     width: 90%;
     margin: 0 auto;
   }
+  
+  .contents__blog__img {
+    max-width: 360px;
+}
 }
