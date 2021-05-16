@@ -1,15 +1,16 @@
 'use strict';
 
 {
-  const dts = document.querySelectorAll('dt');
 
-  dts.forEach(dt => {
-    dt.addEventListener('click', () => {
-      dt.parentNode.classList.toggle('appear');
-
+  $(function(){
+    $('dt:first').addClass('selected');
+    $('dt').click(function(){
+      $(this).toggleClass('selected');
+      $(this).next().slideToggle();
     });
   });
 
+  // ハンバーガーメニュー
   const open = document.getElementById('open');
   const overlay = document.querySelector('.overlay');
   const close = document.getElementById('close');
@@ -147,8 +148,6 @@
     });
 
   });
-
-
 
 
 }
