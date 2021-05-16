@@ -1,4 +1,6 @@
+
 @media (max-width:1250px) {
+
   .pc__menu__list3 {
     margin-left: 46px;
   }
@@ -37,7 +39,6 @@
   .concept__about__img1 {
     padding: 0;
   }
-
 }
 
 
@@ -89,9 +90,7 @@
   .concept__about__text__3 {
     max-width: 510px;
   }
-
 }
-
 
 @media (max-width: 900px) {
   .mainvisual {
@@ -163,7 +162,6 @@
   }
 }
 
-
 @media (max-width: 500px) {
 
   .footer__contents {
@@ -175,20 +173,14 @@
   }
 }
 
-
-
 @media (max-width: 414px) {
   .header__container {
     width: 100%;
   }
 
   .mainvisual {
-    display: none;
-  }
-
-  .mainvisual2 {
     max-width: 414px;
-    background-image: url(https://mu-ran.github.io/website/manager.png);
+    background-image: url(img/manager.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-size: 80%;
@@ -236,7 +228,6 @@
     padding: 90px 0 67px 0;
   }
 
-
   .concept__about__title__1,
   .concept__about__title__2,
   .concept__about__title__3 {
@@ -269,21 +260,12 @@
   }
 
   @media (max-width: 375px) {
-    .mainvisual {
-      width: 375px;
-    }
-
+  
     .mainvisual {
       max-width: 375px;
       background-position: center 50px;
     }
 
-    .mainvisual2 {
-      height: 710px;
-    }
-    .mainvisual2 {
-      background-position: center 40px;
-  }
   }
 
 }
