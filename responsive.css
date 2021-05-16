@@ -183,8 +183,12 @@
   }
 
   .mainvisual {
+    display: none;
+  }
+
+  .mainvisual2 {
     max-width: 414px;
-    background-image: url(https://mu-ran.github.io/website/manager.png);
+    background-image: url(img/manager.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-size: 80%;
@@ -201,8 +205,50 @@
     display: none;
   }
 
+  .mainvisual__title__about {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mainvisual__text {
+    text-align: center;
+  }
+
+  .concept {
+    padding: 0;
+  }
+
+  .concept__title {
+    font-size: 30px;
+  }
+
+  .concept__about,
+  .concept__about2,
+  .concept__about3 {
+    font-size: 25px;
+  }
+
+  .concept__about2 {
+    padding-top: 40px;
+  }
+
+  .concept__about3 {
+    padding: 90px 0 67px 0;
+  }
+
+
+  .concept__about__title__1,
+  .concept__about__title__2,
+  .concept__about__title__3 {
+    font-size: 21px;
+  }
+
   .contents {
     margin: 0;
+  }
+
+  .contents__title {
+    font-size: 30px;
   }
 
   .contents__blog__wrapper {
@@ -214,15 +260,30 @@
     max-width: 360px;
   }
 
+  .question__title {
+    font-size: 30px;
+  }
+
+  .info__title {
+    font-size: 30px;
+  }
+
   @media (max-width: 375px) {
     .mainvisual {
       width: 375px;
     }
+
     .mainvisual {
       max-width: 375px;
-     background-position: center 50px;
-     
+      background-position: center 50px;
     }
+
+    .mainvisual2 {
+      height: 710px;
+    }
+    .mainvisual2 {
+      background-position: center 40px;
+  }
   }
 
 }
