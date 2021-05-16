@@ -1,7 +1,7 @@
 'use strict';
 
 {
-
+// 質問
   $(function(){
     $('dt:first').addClass('selected');
     $('dt').click(function(){
